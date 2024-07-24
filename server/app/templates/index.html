@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Cases</title>
+</head>
+<body>
+    <h1>Test Cases</h1>
+    <ul>
+        {% for testcase in testcases %}
+            <li>{{ testcase.name }}: {{ testcase.description }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
