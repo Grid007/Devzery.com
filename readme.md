@@ -31,8 +31,8 @@ cd server
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository/server
+git clone https://github.com/Grid007/Devzery.com.git
+cd Devzery.com/server
 ```
 
 ### 2. Set Up a Virtual Environment
